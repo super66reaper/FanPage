@@ -1,0 +1,50 @@
+body {
+    background-image: url("Images/SpongebobMenu.png")
+}
+
+img{
+    box-shadow: 10px 10px 10px 10px;
+}
+
+div {
+    background-image: url("Images/Spongebob.jpg");
+    box-shadow: 10px 10px 10px 10px;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+div:hover {
+    background-image: url("Images/Spongebob.png");
+    width: 300px;
+    height: 300px;
+}
+
+.text:hover {
+    background-color: black;
+    color:white;
+}
+
+h1{
+    color:yellow;
+    font-style: oblique;
+}
+
+h3{
+    color:yellow;
+    font-size: 2em;
+}
+
+h4{
+    color:pink;
+    font-size: 2em;
+}
+
+h5{
+    color:turquoise;
+    font-size: 2em;
+}
+
+h6{
+    font-size: 15px
+}
